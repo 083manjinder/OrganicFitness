@@ -10,7 +10,7 @@ const Footer = () => {
                  
                 </h2>
                 <p ><i className="bi bi-geo-alt-fill"></i> Vaishali, Ghaziabad Uttar Pradesh <br/>&nbsp; &nbsp; &nbsp; Pin Code - 201010</p>
-                <a href="mailto: manjinderdhillon083@gmail.com" className="mail" ><i className="bi bi-envelope-fill"></i> <span> &nbsp; noreplay@Organicfitness.in</span>
+                <a className="mail" ><i className="bi bi-envelope-fill"></i> <span> &nbsp; noreplay@Organicfitness.in</span>
                   </a>
                   
                   <a className="linkicon1"><i className="bi bi-facebook"></i></a>

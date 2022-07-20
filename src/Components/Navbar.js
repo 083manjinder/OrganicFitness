@@ -1,10 +1,12 @@
 import './style.css';
 import logo from '../images/logo.png'
 import { NavLink } from 'react-router-dom'
+import React from 'react';
 
 const Navbar = () => {
 
     return (
+        <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-5">
             <div className="container-fluid">
                 <img src={logo} className="logo" />
@@ -30,7 +32,7 @@ const Navbar = () => {
             </div>
         </nav>
 
-
+        </React.Fragment>
     )
 }
 

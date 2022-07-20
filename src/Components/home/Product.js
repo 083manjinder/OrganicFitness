@@ -1,10 +1,12 @@
 
+import React from 'react';
 import product from '../../images/product.jpg';
 
 const Product = () => {
 
     return (
-        <div className="product">
+        <React.Fragment>       
+             <div className="product">
             <div className="container">
                 <h1>Keto Docx</h1>
                 <div className='productimg'>
@@ -25,6 +27,8 @@ const Product = () => {
             </div>
 
         </div>
+        </React.Fragment>
+
     )
 }
 export default Product

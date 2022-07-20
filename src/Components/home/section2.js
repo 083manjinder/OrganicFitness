@@ -1,11 +1,12 @@
 import scale from "../../icons/scale.png"
 import healthy from '../../icons/healthy.png'
 import thunderbolt from '../../icons/thunderbolt.png'
+import React from "react"
 
 const Section2= ()=>{
 
     return(
-        <div>
+        <React.Fragment>
         <section className="benefits" >
             <div className="container">
                 <div className="row boxweight">
@@ -28,7 +29,7 @@ const Section2= ()=>{
                 </div>
             </div>
         </section>
-        </div>
+        </React.Fragment>
     )
 }
 

@@ -5,6 +5,7 @@ import React from "react"
 const Slider = () => {
 
     return (
+        <React.Fragment>
         <div  className="slider">
             <img src={background} className="backside" />
            
@@ -27,6 +28,7 @@ const Slider = () => {
 
 
         </div>
+        </React.Fragment>
     )
 }
 export default Slider

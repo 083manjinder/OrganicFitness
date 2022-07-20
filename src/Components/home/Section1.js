@@ -10,7 +10,7 @@ import icon7 from '../../icons/doctor.png'
 const Section1 = () => {
 
     return (
-        <>
+        <React.Fragment>
             <section className="section1">
                 <h1>Benefits</h1>
                 <div className="first">
@@ -79,7 +79,7 @@ Free classes with Fitness instructors.</p>
 
 
             </section>
-        </>
+        </React.Fragment>
     )
 }
 export default Section1
