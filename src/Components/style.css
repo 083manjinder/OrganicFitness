@@ -409,12 +409,12 @@
     position: absolute;
     width: 100%;
     height: 100%;
-   padding-top: 70px;
+   padding-top: 5px;
    padding-left: 50px;
    padding-right: 50px;
     background-color: #202324;
    text-align: center;
-    top:-100%;
+    top:-140%;
    
     transition: all 0.5s ease;
     cursor: pointer;
@@ -462,7 +462,7 @@
 }
 .modalbox .modal-dialog{
     width: 20%;
-    height: 60%;
+    height: 75%;
     padding: 20px;
     border-radius: 15px;
     background-color: white;
