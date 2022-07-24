@@ -14,17 +14,17 @@ function Popup(props) {
    function handleSubmit (e) {
         e.preventDefault();
        
-        console.log(user)
-        emailjs.sendForm('service_hhz0q9o', 'template_d9o9msg', user, 'QYd5pPw4KGEjxeVAv')
-        .then((result) => {
-            console.log(result)
+        // console.log(user)
+        // emailjs.sendForm('service_hhz0q9o', 'template_d9o9msg', user, 'QYd5pPw4KGEjxeVAv')
+        // .then((result) => {
+        //     console.log(result)
             localStorage.setItem("token", "5277a1c418b80e0b27d770ec3d0ab996")
             props.setTrigger(false)
           navigate("/cart")
            //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
-        }).catch((error) => {
-          console.log(error.text);
-      });
+    //     }).catch((error) => {
+    //       console.log(error.text);
+    //   });
        
    }
     return (
