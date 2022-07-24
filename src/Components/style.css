@@ -352,3 +352,120 @@
     margin: 0px;
 }
 
+/* section 4 */
+.itemsuse{
+    padding: 90px 0px;
+    background-color: #dddddd;
+}
+
+.items{
+   /* background-color: #A0E0D7; */
+   text-align: center;
+}
+.items h2{
+    color:  #00700f;
+    font-size: 25px;
+    font-weight: 400;
+}
+.items h1{
+    font-size: 50px;
+}
+.items p{
+    font-size: 20px;
+    color:  #00700f;
+    
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #ddddddd6;
+}
+.view{
+    margin: 30px;
+    width: 25%;
+    border-radius: 30px;
+     overflow: hidden; 
+   
+}
+.gridstyle{
+    position: relative;
+    display: block;
+    box-shadow: 3px 7px 16px  rgb(77, 76, 76);
+}
+.img-responsive  .img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 407px;
+    
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   padding-top: 70px;
+   padding-left: 50px;
+   padding-right: 50px;
+    background-color: #202324;
+   text-align: center;
+    top:-100%;
+   
+    transition: all 0.5s ease;
+    cursor: pointer;
+    -o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+    
+}
+.textover {
+    color: #dddddd;
+
+}
+.textover h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.view:hover .mask {
+   
+    
+    top: 0%;
+  
+    display: block;
+}
+
+/* Sliderrrr shhowww  */
+/* popup  */
+
+.box{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: #767676ba;
+}
+.modalbox{
+    
+    height: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.modalbox .modal-dialog{
+    width: 20%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.modal-content{text-align: center;}

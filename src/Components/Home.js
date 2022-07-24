@@ -6,14 +6,21 @@ import Section3 from "./home/Section3"
 import Product from "./home/Product"
 import Review from "./home/Review"
 import Footer from "./home/Footer"
-const Home = ()=>{
+import Section4 from "./home/Section4"
+import { useState } from "react"
+// import './home/p'
+const Home = (props)=>{
 
+    // const[popup, setPopup] = useState(false)
+    
+    // props.popup(popup)
     return(
         <React.Fragment>
-        <Slider/>
+        <Slider setPopupbox={props.setPopupbox}/>
         <Section2/>
-        <Product/>
-        <Section3/>
+        <Product setPopupbox={props.setPopupbox}/>
+        {/* <Section3/> */}
+        <Section4/>
         <Section1/>
         <Review/>
         <Footer/>

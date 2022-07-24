@@ -1,13 +1,16 @@
 
 import React from "react"
 const Contact = ()=>{
+    function removeToken(){
+        localStorage.removeItem("token")
+        
+    }
+    
 
     return(
         <React.Fragment>
         <div>
-        <h1>
-            Contact
-        </h1>
+       <button onClick={removeToken}>remove token</button>
         </div>
         </React.Fragment>
     )

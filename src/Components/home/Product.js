@@ -1,8 +1,23 @@
 
 import React from 'react';
 import product from '../../images/product.jpg';
+import { Navigate, useNavigate } from 'react-router-dom';
 
-const Product = () => {
+const Product = (props) => {
+    const navigate = useNavigate()
+    const token = localStorage.getItem("token")
+    let isLogin = true;
+    function buyProduct (){
+        if(token === null){
+            props.setPopupbox(true)
+            isLogin = false
+        }else{
+            navigate("/cart")
+        }
+    }
+    if(isLogin === false){
+        return <Navigate to="/"/>
+    }
 
     return (
         <React.Fragment>       
@@ -21,7 +36,7 @@ const Product = () => {
                         It's organic ingredients doesn't leave any side effects on any age or gender at all.
                         The rich herbs are extracted from all around the world and are tested for purity for best results.
                         The herbs are then preserved in -6°C and all the nutritive oils are maintained so that you get the exact same goodness from the time of extraction.</p>
-                        <button className="btn seeallpackage  rounded-pill">See Packages</button>
+                        <button className="btn seeallpackage  rounded-pill" onClick={ buyProduct }>See Packages</button>
                 </div>
 
             </div>
