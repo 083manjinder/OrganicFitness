@@ -54,6 +54,15 @@ const Section1 = () => {
 
                         </div>
                     </div>
+                    
+                    <div className="card  " >
+                        <div className="card-body">
+                            <img src={icon7}  alt="images"/>
+                            <h5 className="card-title">Free dietitian support and doctor consultancy</h5>
+                            <p className="card-text">Dietitian support will help you throughout your journey with us. Highly trained and certified doctors will provide guidance and motivation for best results. </p>
+
+                        </div>
+                    </div>
                     <div className="card box2 " >
                         <div className="card-body">
                             <img src={icon6} alt="images" />
@@ -61,14 +70,6 @@ const Section1 = () => {
                             <p className="card-text">Free pre-ketosis full body detoxification. Free Keto diet support.
 Free Customized diet plans.
 Free classes with Fitness instructors.</p>
-
-                        </div>
-                    </div>
-                    <div className="card  " >
-                        <div className="card-body">
-                            <img src={icon7}  alt="images"/>
-                            <h5 className="card-title">Free dietitian support and doctor consultancy</h5>
-                            <p className="card-text">Dietitian support will help you throughout your journey with us. Highly trained and certified doctors will provide guidance and motivation for best results. </p>
 
                         </div>
                     </div>
