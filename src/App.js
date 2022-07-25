@@ -13,7 +13,7 @@ import Cart from "./Components/Cart";
 
 function App(props) {
   const[popupbox, setPopupBox] = useState(false)
-  console.log(popupbox)
+  // console.log(popupbox)
   return (
     <React.Fragment>
        
