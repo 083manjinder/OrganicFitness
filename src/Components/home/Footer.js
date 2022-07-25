@@ -1,4 +1,5 @@
 import React from "react"
+// import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -10,11 +11,12 @@ const Footer = () => {
                  
                 </h2>
                 <p ><i className="bi bi-geo-alt-fill"></i> Vaishali, Ghaziabad Uttar Pradesh <br/>&nbsp; &nbsp; &nbsp; Pin Code - 201010</p>
-                <a className="mail" ><i className="bi bi-envelope-fill"></i> <span> &nbsp; noreplay@Organicfitness.in</span>
+                <a className="mail" href="!#"><i className="bi bi-envelope-fill"></i> <span> &nbsp; noreplay@Organicfitness.in</span>
                   </a>
                   
-                  <a className="linkicon1"><i className="bi bi-facebook"></i></a>
-                  <a className="linkicon2"><i className="bi bi-instagram"></i></a>
+                  
+                  <a className="linkicon1" href="!#"><i className="bi bi-facebook"></i></a>
+                  <a className="linkicon2" href="!#"><i className="bi bi-instagram"></i></a>
                   
               </div>
               <div className="form1">

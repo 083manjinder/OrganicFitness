@@ -1,7 +1,7 @@
 import { useState } from "react"
 import React from 'react'
 import{ useNavigate } from 'react-router-dom'
-import emailjs from 'emailjs-com'
+// import emailjs from 'emailjs-com'
 function Popup(props) {
     const navigate = useNavigate()
     const [user, setUser]= useState([])
@@ -35,7 +35,7 @@ function Popup(props) {
                         <div className="modal-dialog">
                             <div className="modal-content">
                                 <div className="modal-header">
-                                    <h5 className="modal-title"></h5>
+                                    <h5 className="modal-title"> </h5>
                                     <button  className="btn-close" onClick={()=> props.setTrigger(false)}></button>
                                 </div>
                                 <div className="modal-body">

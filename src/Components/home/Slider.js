@@ -1,7 +1,7 @@
 import background from "../../images/background11.jpg"
 import bottle from "../../images/bottle.png"
-import React, { useState } from "react"
-import Slideshow from "./Slideshow"
+import React  from "react"
+// import Slideshow from "./Slideshow"
 import { Navigate, useNavigate } from "react-router-dom"
 // import Popup from "./Popup"
 // import '../home/Popup'
@@ -30,7 +30,7 @@ const Slider = (props) => {
         <React.Fragment>
 
             <div className="slider">
-                <img src={background} className="backside" />
+                <img src={background} className="backside" alt="background"/>
                 {/* <Slideshow/> */}
                 <div className="headline">
                     <h1>We are here to give you the best herb products
@@ -44,7 +44,7 @@ const Slider = (props) => {
                     <button  className="btn shopbutton  rounded-pill" onClick={ buyProduct}>Buy Now</button>
                 </div>
                 <div className="bottle">
-                    <img src={bottle} />
+                    <img src={bottle} alt="bottle-product" />
                 </div>
                
                 

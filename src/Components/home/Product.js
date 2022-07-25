@@ -25,7 +25,7 @@ const Product = (props) => {
             <div className="container">
                 <h1>Keto Docx</h1>
                 <div className='productimg'>
-                    <img src={product} />
+                    <img src={product} alt="product"/>
                 </div>
                 <div className='productdetails'>
                     <h2>About Keto Docx</h2>
