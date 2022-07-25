@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
-import { Slide } from "react-slideshow-image";
+// import { Slide } from "react-slideshow-image";
 import banner1 from '../../images/banner1.jpg'
 import banner2 from '../../images/banner2.jpg'
 

@@ -13,13 +13,13 @@ body{
     /* background-color: blue; */
 }
 .nav-link{
-    /* font-weight: 700; */
+    font-weight: 500;
 }
 
 
 .backside {
     width: 100%;
-    height: 200vh;
+    height: 75vh;
     filter: contrast(0.5);
     background-position: center;
     background-repeat: no-repeat;
@@ -413,7 +413,7 @@ body{
 .mask {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 60vh;
    padding-top: 5px;
    padding-left: 50px;
    padding-right: 50px;
@@ -467,7 +467,7 @@ body{
 }
 .modalbox .modal-dialog{
     width: 20%;
-    height: 75%;
+    height: 60vh;
     padding: 20px;
     border-radius: 15px;
     background-color: white;
