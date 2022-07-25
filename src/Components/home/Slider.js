@@ -33,7 +33,7 @@ const Slider = (props) => {
                 <img src={background} className="backside" alt="background"/>
                 {/* <Slideshow/> */}
                 <div className="headline">
-                    <h1>We are here to give you the best herb products
+                    <h1>The Best Herbal Product and 100% Organic
                     </h1>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
