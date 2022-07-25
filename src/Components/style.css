@@ -19,7 +19,7 @@ body{
 
 .backside {
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     filter: contrast(0.5);
     background-position: center;
     background-repeat: no-repeat;
@@ -386,12 +386,12 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
     background-color: #ddddddd6;
 }
 .view{
-    margin: 30px;
-    width: 25%;
+    margin: 15px;
+    width: 30%;
     border-radius: 30px;
      overflow: hidden; 
    
@@ -413,8 +413,8 @@ body{
 .mask {
     position: absolute;
     width: 100%;
-    height: 60vh;
-   padding-top: 5px;
+    height: 80vh;
+   padding-top: 40px;
    padding-left: 50px;
    padding-right: 50px;
     background-color: #202324;
@@ -466,8 +466,8 @@ body{
     
 }
 .modalbox .modal-dialog{
-    width: 20%;
-    height: 60vh;
+    width: 30%;
+    height: 75vh;
     padding: 20px;
     border-radius: 15px;
     background-color: white;
