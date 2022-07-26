@@ -33,10 +33,8 @@ const Footer = () => {
                  <div className="formbox"> <label>Name:</label>
                   <input type="text" name="name" id="name" required/>
                 </div>
-                 <div className="formbox"> <label>Email Address:</label>
-                  <input  type="email" name="email" id="email" required/>
-                </div>
-                <div className="formbox"> <label>Review:</label>
+                 
+                <div className="formbox"> <label>Feedback:</label>
                 <textarea  name="content" id="content" cols="10" rows="3" required></textarea>
                 </div>
                  
