@@ -347,6 +347,13 @@ body{
     outline: none;
     border-bottom: 3px solid rgb(145, 145, 145);
 }
+.formbox textarea {
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(145, 145, 145);
+}
 .copyright{
     text-align: center;
     background-color: #b5bfb9;

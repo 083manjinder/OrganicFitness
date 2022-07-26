@@ -17,28 +17,30 @@ const Footer = () => {
                   
                   <a className="linkicon1" href="!#"><i className="bi bi-facebook"></i></a>
                   <a className="linkicon2" href="!#"><i className="bi bi-instagram"></i></a>
+                  <a className="linkicon2" href="!#"><i className="bi bi-envelope-fill"></i></a>
+                  <a className="linkicon2" href="!#"><i className="bi bi-youtube"></i></a>
                   
               </div>
               <div className="form1">
-                <h2 >Customer Support</h2>
+                <h2 >Review  </h2>
 
 
 
                 <div></div>
 
 
-                <form method="post" action="#footer">
-                 <div className="formbox"> <label>What is Your Name:</label>
-                  <input type="text" name="name" id="name" required=""/>
+                <form >
+                 <div className="formbox"> <label>Name:</label>
+                  <input type="text" name="name" id="name" required/>
                 </div>
-                 <div className="formbox"> <label>Your Email Address Please:</label>
-                  <input  type="email" name="email" id="email" required=""/>
+                 <div className="formbox"> <label>Email Address:</label>
+                  <input  type="email" name="email" id="email" required/>
                 </div>
-                <div className="formbox"> <label>Your Contact Number:</label>
-                  <input  type="number" name="number" id="number" required=""/>
+                <div className="formbox"> <label>Review:</label>
+                <textarea  name="content" id="content" cols="10" rows="3" required></textarea>
                 </div>
                  
-               <button className="btn submitbtn" type="submit" id="submit" >
+               <button className="btn submitbtn" id="submit" >
               Submit Now
             </button>
             </form>
