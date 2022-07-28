@@ -8,7 +8,7 @@ import Review from "./home/Review"
 import Footer from "./home/Footer"
 import Section4 from "./home/Section4"
 // import { useState } from "react"
-import '../stylesheet.css'
+// import '../stylesheet.css'
 // import './home/p'
 const Home = (props)=>{
 
