@@ -7,14 +7,15 @@ import boosterss from '../../images/section2/boosterss.png'
 import energy from '../../images/section2/energy.png'
 import detox from '../../images/section2/detox.png'
 import React from "react"
+import style from '../style.module.css'
 
 const Section2 = () => {
 
     return (
         <React.Fragment>
-            <section className="benefits" >
+            <section className={style.benefits} >
                 <div className="container">
-                    <div className="row boxweight">
+                    <div className={`row ${style.boxweight}`}>
                         <div className="col-md-12 col-lg-4 pb-5">
                             <img className=" lazyloaded" alt="" src={fatburn} />
                             <h3>Thermogenic</h3>

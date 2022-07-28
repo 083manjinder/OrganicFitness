@@ -4,7 +4,7 @@ import React  from "react"
 // import Slideshow from "./Slideshow"
 import { Navigate, useNavigate } from "react-router-dom"
 // import Popup from "./Popup"
-// import '../home/Popup'
+import style from '../style.module.css'
 
 const Slider = (props) => {
     const navigate = useNavigate()
@@ -29,10 +29,10 @@ const Slider = (props) => {
     return (
         <React.Fragment>
 
-            <div className="slider">
-                <img src={background} className="backside" alt="background"/>
+            <div className={style.slider}>
+                <img src={background} className={style.backside} alt="background"/>
                 {/* <Slideshow/> */}
-                <div className="headline">
+                <div className={style.headline}>
                     <h1>The Best Herbal Product and 100% Organic
                     </h1>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation
@@ -41,9 +41,9 @@ const Slider = (props) => {
                         esse cillum dolore eu fugiat nulla pariatur.
                         Duis aute irure dolor in reprehenderit in voluptate velit
                         esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <button  className="btn shopbutton  rounded-pill" onClick={ buyProduct}>Buy Now</button>
+                    <button  className={`btn ${style.shopbutton}  rounded-pill`} onClick={ buyProduct}>Buy Now</button>
                 </div>
-                <div className="bottle">
+                <div className={style.bottle}>
                     <img src={bottle} alt="bottle-product" />
                 </div>
                

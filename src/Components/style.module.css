@@ -1,0 +1,484 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+.active {
+    color: #228B22 !important;
+    /* background-color: blue; */
+}
+.nav-link{
+    font-weight: 500;
+}
+
+
+.backside {
+    width: 100%;
+    height: 90vh;
+    filter: contrast(0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.headline {
+    position: absolute;
+   
+    width: 50%;
+    padding-left: 35px;
+
+
+}
+
+.headline h1 {
+    font-size: 75px;
+    color: #4a7c13;
+    /* background: -webkit-linear-gradient(#1c801c, #004400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.headline p {
+    font-size: 15px;
+    color: #1f661f !important;
+
+}
+
+.bottle {
+
+
+    position: absolute;
+    right: 0px;
+    padding-right: 80px;
+
+}
+
+.bottle img {
+    width: 600px;
+}
+.shopbutton{
+    background-color: #4a7c13 !important;
+    color:aliceblue !important;
+    position: absolute;
+    
+    width: 230px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px !important;
+
+}
+
+
+/* Section1 */
+
+.section1{
+    display: flex;
+   
+    background-color: #b8eb7c;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    height: 1400px;
+    padding-top: 35px;
+}
+.section1 h1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+}
+.first{
+    position:absolute;
+    top: auto;
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.first .card{
+    margin-right: 70px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 26%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 29px;
+}
+.first .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first .bi{
+    font-size: 80px;
+}
+.first h5{
+    font-size: 30px;
+    font-weight: 800;
+}
+.first  p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.first .box3{
+    margin-bottom: 90px;
+}
+.first .box4{
+    margin-top: 40px;
+}
+.first .box1{
+    margin-bottom: 90px;
+}
+.first .box2{
+    margin-top: 40px;
+}
+.first img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* sectopn 2 */
+
+.benefits{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #edebeb;
+}
+.boxweight img{
+    margin-bottom: 20px;
+    height: 100px;
+}
+.benefits h3{
+    color: #202324;
+    /* font-size: 1.5em; */
+    font-weight: 700;
+    letter-spacing: -.1px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.benefits p {
+    color: #454b4d;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -.07px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* section 3 */
+
+.clean-ingredients{
+    background-color: #A0E0D7;
+    text-align: center;
+}
+.clean-ingredients img{
+    width: 100%;
+}
+
+.clean-ingredients .ingredients > div {
+    margin: 16px 32px;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.ingredients{
+    text-align: center;
+}
+.ingredients img{
+    background-color: #f25e61;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ingredients .text{
+    font-size: 25px;
+    font-weight: 500;
+}
+.seemore{
+    background-color: #f25e61 !important;
+    font-size: 30px !important;
+    padding: 5px 20px !important;
+}
+
+/* product details */
+
+
+.product{
+    padding-top: 20px;
+    /* background-color: #d5b471; */
+    height: 800px;
+}
+.product h1{
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.productimg{
+    position: absolute;
+}
+.productdetails{
+    padding-right: 100px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    width: 52%;
+    
+    
+    
+}
+.productdetails h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.productdetails p{
+    font-size: 23px;
+    font-weight: 600;
+}
+.productdetails .seeallpackage{
+    background-color: #4a7c13 !important;
+    color:aliceblue !important;
+    /* position: absolute; */
+    
+    width: 230px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px !important;
+}
+.review{
+    height: 560px;
+}
+
+/* footer */
+.footer{
+    padding-top: 50px;
+    display: flex;
+    background-color: #C9D6CF;
+    height: 500px;
+}
+.topic{
+    
+    position: absolute;
+    padding-left: 80px;
+}
+.topic h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.topic p {
+    font-size: 23px;
+}
+.topic .mail {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding-bottom: 20px;
+    /* position: absolute; */
+    display: flex;
+    
+}
+.topic .linkicon1{
+    font-size: 50px;
+    color:#202324;
+    padding-right: 20px;
+    /* position: absolute; */
+
+}
+.topic .linkicon2{
+    font-size: 50px;
+    color:#202324;
+    padding-right: 20px;
+
+}
+
+.form1{
+    width: 50%;
+    padding-right: 80px;
+    right: 0px;
+    position: absolute;
+}
+.form1 button{
+    color: whitesmoke;
+    background-color: #202324;
+    font-size: 25px;
+}
+.submitbtn:hover{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #181919;
+}
+.form1 h2{
+    font-size: 50px;
+}
+.formbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.formbox label{
+    font-size: 20px;
+}
+.formbox input {
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(145, 145, 145);
+}
+.formbox textarea {
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(145, 145, 145);
+}
+.copyright{
+    text-align: center;
+    background-color: #b5bfb9;
+    
+
+}
+.copyright p {
+    margin: 0px;
+}
+
+/* section 4 */
+.itemsuse{
+    padding: 90px 0px;
+    background-color: #dddddd;
+}
+
+.items{
+   /* background-color: #A0E0D7; */
+   text-align: center;
+}
+.items h2{
+    color:  #00700f;
+    font-size: 25px;
+    font-weight: 400;
+}
+.items h1{
+    font-size: 50px;
+}
+.items p{
+    font-size: 20px;
+    color:  #00700f;
+    
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ddddddd6;
+}
+.view{
+    margin: 15px;
+    width: 30%;
+    border-radius: 30px;
+     overflow: hidden; 
+   
+}
+.gridstyle{
+    position: relative;
+    display: block;
+    box-shadow: 3px 7px 16px  rgb(77, 76, 76);
+}
+.img-responsive  .img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 407px;
+    
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+   padding-top: 40px;
+   padding-left: 50px;
+   padding-right: 50px;
+    background-color: #202324;
+   text-align: center;
+    top:-140%;
+   
+    transition: all 0.5s ease;
+    cursor: pointer;
+    -o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+    
+}
+.textover {
+    color: #dddddd;
+
+}
+.textover h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.view:hover .mask {
+   
+    
+    top: 0%;
+  
+    display: block;
+}
+
+/* Sliderrrr shhowww  */
+/* popup  */
+
+.box{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: #767676ba;
+}
+.modalbox{
+    
+    height: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.modalbox .modal-dialog{
+    width: 30%;
+    height: 75vh;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.modal-content{text-align: center;}
