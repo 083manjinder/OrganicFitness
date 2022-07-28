@@ -67,9 +67,7 @@ const Section1 = () => {
                         <div className="card-body">
                             <img src={icon6} alt="images" />
                             <h5 className="card-title">Other services</h5>
-                            <p className="card-text">Free pre-ketosis full body detoxification. Free Keto diet support.
-Free Customized diet plans.
-Free classes with Fitness instructors.</p>
+                            <p className="card-text">Free pre-ketosis full body detoxification, keto diet support, customized diet plans, classes with fitness instructors and more.</p>
 
                         </div>
                     </div>

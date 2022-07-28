@@ -20,8 +20,7 @@ body{
 
 .backside {
     width: 100%;
-    height: 90
-    vh;
+    height: 90vh;
     filter: contrast(0.5);
     background-position: center;
     background-repeat: no-repeat;
@@ -242,7 +241,7 @@ body{
     text-align: center;
     position: absolute;
     right: 0px;
-    width: 50%;
+    width: 52%;
     
     
     

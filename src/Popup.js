@@ -46,8 +46,8 @@ function Popup(props) {
                                             <input type="text" className="form-control" name="name" required onChange={inputValue}/>
                                         </div>
                                         <div className="mb-3">
-                                            <label  className="form-label">Email address</label>
-                                            <input type="email" className="form-control" name="email"  required onChange={inputValue}/>
+                                            <label  className="form-label">Email address (optional)</label>
+                                            <input type="email" className="form-control" name="email"   onChange={inputValue}/>
                                         </div>
                                         <div className="mb-3">
                                             <label  className="form-label">Phone</label>
