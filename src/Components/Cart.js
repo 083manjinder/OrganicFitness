@@ -1,5 +1,7 @@
 import React from "react"
 import { Navigate } from "react-router-dom";
+import DetailsProduct from "./Cart/DetailsProduct";
+import ProductCart from "./Cart/ProductCart";
 
 export default function Cart (){
     const token = localStorage.getItem("token")
@@ -13,7 +15,8 @@ export default function Cart (){
     }
     return(
         <React.Fragment>
-            <h1>cart</h1>
+            <ProductCart />
+            <DetailsProduct/>
         </React.Fragment>
     )
 }
