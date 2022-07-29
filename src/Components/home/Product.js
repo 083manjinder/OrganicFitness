@@ -1,4 +1,4 @@
-
+import "../../stylesheet.css"
 import React from 'react';
 import product from '../../images/product.jpg';
 import { Navigate, useNavigate } from 'react-router-dom';

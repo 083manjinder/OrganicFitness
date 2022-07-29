@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import React, { useState } from "react";
 import About from './Components/About'
 import Popup from "./Popup";
+import "./stylesheet.css"
 
 
 import Contact from "./Components/Contact";

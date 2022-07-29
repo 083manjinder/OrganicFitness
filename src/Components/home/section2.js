@@ -8,6 +8,7 @@ import energy from '../../images/section2/energy.png'
 import detox from '../../images/section2/detox.png'
 import React from "react"
 import style from '../style.module.css'
+import "../../stylesheet.css"
 
 const Section2 = () => {
 

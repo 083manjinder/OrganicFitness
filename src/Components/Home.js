@@ -1,6 +1,8 @@
 import Section1 from "./home/Section1"
 import Slider from "./home/Slider"
 import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css"
 import Section2 from "./home/section2"
 // import Section3 from "./home/Section3"
 import Product from "./home/Product"

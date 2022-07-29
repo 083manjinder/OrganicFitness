@@ -8,7 +8,7 @@ import image6 from '../../images/ingredients/Spirulina.jpg'
 import image7 from '../../images/ingredients/guggul.jpg'
 import image8 from '../../images/ingredients/GarciniaCambogia.jpeg'
 import image9 from '../../images/ingredients/Ashwagandha.jpeg'
-
+import "../../stylesheet.css"
 
 const Images = () => {
 

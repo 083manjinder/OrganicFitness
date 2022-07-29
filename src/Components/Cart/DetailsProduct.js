@@ -1,5 +1,6 @@
 import React from "react";
-
+import "../../stylesheet.css"
+import './CartStyle.css'
 
 export default function DetailsProduct() {
 

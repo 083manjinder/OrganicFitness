@@ -5,6 +5,7 @@ import React  from "react"
 import { Navigate, useNavigate } from "react-router-dom"
 // import Popup from "./Popup"
 import style from '../style.module.css'
+import "../../stylesheet.css"
 
 const Slider = (props) => {
     const navigate = useNavigate()

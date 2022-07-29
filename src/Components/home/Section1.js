@@ -6,6 +6,7 @@ import icon5 from '../../icons/moneyback.png'
 import icon6 from '../../icons/otherservice.png'
 import icon7 from '../../icons/doctor.png'
  import React from "react"
+ import "../../stylesheet.css"
 
 const Section1 = () => {
 

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import React from 'react'
 import{ useNavigate } from 'react-router-dom'
+import './stylesheet.css'
 // import emailjs from 'emailjs-com'
 function Popup(props) {
     const navigate = useNavigate()

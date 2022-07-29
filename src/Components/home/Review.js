@@ -1,5 +1,6 @@
 import React from 'react'
 import './review.css'
+import "../../stylesheet.css"
 const Review = () => {
 
     return (

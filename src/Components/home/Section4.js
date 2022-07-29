@@ -1,5 +1,6 @@
 import React from "react"
 import Images from "./Images"
+import "../../stylesheet.css"
 
 const Section4 = () => {
 

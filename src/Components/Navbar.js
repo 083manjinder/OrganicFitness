@@ -3,6 +3,9 @@ import logo from '../images/logo.png'
 import { NavLink } from 'react-router-dom'
 import React from 'react';
 import style from './style.module.css'
+import "../stylesheet.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 const Navbar = () => {
 
@@ -15,14 +18,14 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav   mb-lg-0 fs-3 me-5 d-flex align-items-center">
                         <li className="nav-item pe-5">
-                            <NavLink className={`nav-link ${({isActive}) =>   isActive ? `${style.active}` : ""}`} to="/" >HOME</NavLink>
+                            <NavLink className={`nav-link navlink ${({isActive}) =>   isActive ? "active" : ""}`} to="/" >HOME</NavLink>
                         </li>
                         <li className="nav-item pe-5">
-                            <NavLink className={`nav-link ${({isActive}) =>   isActive ? `${style.active}` : ""}`} to="/about" >ABOUT</NavLink>
+                            <NavLink className={`nav-link navlink ${({isActive}) =>   isActive ? "active" : ""}`} to="/about" >ABOUT</NavLink>
                         </li>
                        
                         <li className="nav-item pe-5">
-                            <NavLink className={`nav-link ${({isActive}) =>   isActive ?  `${style.active}` : ""}`} to="/contact" >CONTACT</NavLink>
+                            <NavLink className={`nav-link   navlink ${({isActive}) =>   isActive ?  "active" : ""}`} to="/contact" >CONTACT</NavLink>
                         </li>
                        
 
