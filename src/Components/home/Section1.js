@@ -13,13 +13,13 @@ const Section1 = () => {
     return (
         <React.Fragment>
             <section className="section1">
-                <h1>Benefits</h1>
+                <h1>Finest Services</h1>
                 <div className="first">
                     <div className="card box1 " >
                         <div className="card-body">
                             <img src={icon4} alt="images"/>
-                            <h5 className="card-title">100 % Organic</h5>
-                            <p className="card-text">FSSAI certified and FDA approved. It makes the product trusted and best quality.</p>
+                            <h5 className="card-title">100% Organic</h5>
+                            <p className="card-text">FSSAI certified and FDA approved. It makes the product trusted and of best quality.</p>
 
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Section1 = () => {
 
                         </div>
                     </div>
-                    <div className="card box1 " >
+                    <div className="card box4 " >
                         <div className="card-body">
                             <img src={icon5} alt="images" />
                             <h5 className="card-title">90 days money back policy</h5>

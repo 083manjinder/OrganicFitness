@@ -1,10 +1,11 @@
 import React from "react"
 import { Navigate } from "react-router-dom";
-import DetailsProduct from "./Cart/DetailsProduct";
-import ProductCart from "./Cart/ProductCart";
-import "../stylesheet.css"
+import DetailsProduct from "../Cart/DetailsProduct";
+import ProductCart from "../Cart/ProductCart";
+// import "../stylesheet.css"
+import Section4 from "./home/Section4";
 
-export default function Cart (){
+export default function Cart (props){
     const token = localStorage.getItem("token")
     let isLogin = true;
     if(token === null){
@@ -16,8 +17,9 @@ export default function Cart (){
     }
     return(
         <React.Fragment>
-            <ProductCart />
-            <DetailsProduct/>
+            <ProductCart  />
+            <DetailsProduct data={props.data} check={(productid)=>{props.checkdone(productid)}}/>
+            {/* < Section4 /> */}
         </React.Fragment>
     )
 }

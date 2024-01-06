@@ -1,0 +1,212 @@
+
+    
+
+.slide{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 50px;
+    /* position:absolute; */
+    /* position: fixed !important; */
+}
+.detailsProduct{
+    position: absolute;
+    /* display: flex; */
+    right: 0px;
+    width: 40%;
+    margin-right: 100px;
+    /* margin-top: 50px */
+}
+.detailsProduct h1{
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+.Stars::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: inherit;
+    line-height: 1;
+}
+.Stars a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.product-single__features{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.product-single__features ul{
+    list-style: none;
+    padding: 0px;
+}
+.product-single__features i {
+    color: #2ecc71;
+    padding-right: 10px;
+}
+.package{
+    border: 1px solid #eaeaea;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.iBeoOa{
+    font-size: 50px;
+    background-color: #eaeaea;
+    padding: 10px 0px;
+}
+.dQcJMP{
+    list-style: none;
+    display: flex;
+    grid-gap: 8px;
+    gap: 8px;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.sellingtype{
+    background-color: #d91124;
+    position: absolute;
+    z-index: 1;
+    top: -26px;
+    width: 20%;
+    height: 18%;
+    color: white;
+    border-radius: 9px;
+    right: 45px;
+    box-shadow: 8px 6px #888888;
+    font-size: 41px;
+    
+}
+.d-block{
+    width: 35%;
+}
+.cQJtEe{
+    position: absolute;
+    /* display: flex; */
+    /* z-index: -1; */
+    width: 100%;
+    left: 1px;
+    top: 160%
+}
+.offer{
+    background-color: darkorange;
+    position: absolute;
+    bottom: 20px;
+    width: 10%;
+    left: -3px;
+    /* border-radius: 12px; */
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 0px 10px 10px 0px
+}
+.kJyIrx {
+    
+    margin-top: 30px;
+    letter-spacing: normal;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+    border: 3px solid rgb(0, 0, 0);
+    /* cursor: pointer; */
+    display: flex;
+    grid-gap: 4px;
+    gap: 4px;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.activeVariant{
+    background: #b4e7af;
+    border: 3px solid #024a00 !important;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    line-height: 1.4;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    min-height: 44px;
+    background-color: #024a00 !important;
+    color: white !important;
+    border-color: #024a00 !important;
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    float: none;
+    border-radius: 6px;
+}
+.ZCySm{
+    font-size: 55px;
+    font-weight: 700;
+}
+.eJLpZn{
+    font-size: 20px;
+    font-weight: 500;
+}
+.eDwyNE{
+    font-size: 20px;
+    font-weight: 500;
+}
+.fgzbKP{
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration-line: line-through;
+    color: rgb(104 104 104);
+}
+.llzznR{
+    font-size: 20px;
+    font-weight: 400;
+}
+.package input {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #006E5A;
+    border-radius: 50%;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    /* min-height: unset !important; */
+    padding: 8px !important;
+}
+.activeVariant input:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -11px;
+    left: -8px;
+    position: relative;
+    background-color: #024a00;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    outline-offset: 4px;
+    outline: auto;
+    outline-color:#024a00;
+}
+.productimages img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+}
