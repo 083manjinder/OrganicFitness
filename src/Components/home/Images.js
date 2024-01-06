@@ -8,7 +8,7 @@ import image6 from '../../images/ingredients/Spirulina.jpg'
 import image7 from '../../images/ingredients/guggul.jpg'
 import image8 from '../../images/ingredients/GarciniaCambogia.jpeg'
 import image9 from '../../images/ingredients/Ashwagandha.jpeg'
-import "../../stylesheet.css"
+// import "../../stylesheet.css"
 
 const Images = () => {
 
@@ -17,6 +17,7 @@ const Images = () => {
 			<div className="images">
 				<div className="view view-sixth">
 					<div className="gridstyle">
+						
 						<div className="img-responsive">
 							<img src={image8} alt="ingredients images" className="img" />
 						</div>
@@ -28,6 +29,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Garcinia Cambogia</h1>
 				</div>
 				<div className="view view-sixth">
 					<div className="gridstyle">
@@ -41,6 +43,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Spirulina</h1>
 				</div>
 				<div className="view view-sixth">
 					<div className="gridstyle">
@@ -54,6 +57,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Guggul</h1>
 				</div>
 
 
@@ -69,6 +73,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Green Coffee</h1>
 				</div>
 				<div className="view view-sixth">
 					<div className="gridstyle">
@@ -82,6 +87,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Green Tea</h1>
 				</div>
 				<div className="view view-sixth">
 					<div className="gridstyle">
@@ -95,6 +101,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Ashwagandha</h1>
 				</div>
 				<div className="view view-sixth">
 					<div className="gridstyle">
@@ -108,6 +115,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Punarnava</h1>
 				</div>
 
 				<div className="view view-sixth">
@@ -122,6 +130,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Triphala</h1>
 				</div>
 				<div className="view view-sixth">
 					<div className="gridstyle">
@@ -135,6 +144,7 @@ const Images = () => {
 							</div>
 						</div>
 					</div>
+					<h1>Apple Cider Vinegar</h1>
 				</div>
 
 			</div>

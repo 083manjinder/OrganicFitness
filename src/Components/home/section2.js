@@ -6,17 +6,19 @@ import booster from '../../images/section2/booster.png'
 import boosterss from '../../images/section2/boosterss.png'
 import energy from '../../images/section2/energy.png'
 import detox from '../../images/section2/detox.png'
+import skin from '../../images/section2/skin.png'
 import React from "react"
-import style from '../style.module.css'
-import "../../stylesheet.css"
+
+// import "../../stylesheet.css"
 
 const Section2 = () => {
 
     return (
         <React.Fragment>
-            <section className={style.benefits} >
+            <section className="benefits" >
+                <h1>Natural Benefits</h1>
                 <div className="container">
-                    <div className={`row ${style.boxweight}`}>
+                    <div className={`row boxweight`}>
                         <div className="col-md-12 col-lg-4 pb-5">
                             <img className=" lazyloaded" alt="" src={fatburn} />
                             <h3>Thermogenic</h3>
@@ -45,8 +47,12 @@ const Section2 = () => {
                         <div className="col-md-12 col-lg-4 pb-5">
                             <img className=" lazyloaded" alt="" src={boosterss} />
                             <h3>Metabolism Booster</h3>
-                            <p>The higher your metabolic rate is, the more calories you burn and keep it off. Bad metabolism can bring a major drawback in your life, regulating it is very important and no rocket science. 
-natural weight loss. </p>
+                            <p>The higher your metabolic rate is, the more calories you burn and keep it off. Bad metabolism can bring a major drawback in your life, regulating it is very important and no rocket science. </p>
+                        </div>
+                        <div className="col-md-12 col-lg-4 pb-5">
+                            <img className=" lazyloaded" alt="" src={skin} />
+                            <h3>Maintain skin health</h3>
+                            <p>Weight loss will not make your skin become lose or get wrinkles,special ingredients will keep the skin healthy, tight and will reduce body swelling. </p>
                         </div>
                         <div className="col-md-12 col-lg-4 pb-5">
                             <img className=" lazyloaded" alt="" src={energy} />
